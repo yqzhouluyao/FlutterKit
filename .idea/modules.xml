@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutterkit.iml" filepath="$PROJECT_DIR$/flutterkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/flutterkit_android.iml" filepath="$PROJECT_DIR$/android/flutterkit_android.iml" />
     </modules>
   </component>
 </project>
