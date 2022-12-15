@@ -5,15 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d233d693-f007-4e5d-82a4-f3e3fef77e0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/investment_principles.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/setttings.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/tabs.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/alertview_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/check_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/community_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_nav_back_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right_angle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/global_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/icon_font.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/eventbus/event_bus.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/webview/title_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/flutterkit_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/flutterkit_android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutterkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutterkit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -50,6 +70,14 @@
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/lib/constants" />
+      <recent name="$PROJECT_DIR$/lib/tabs/home/dialog" />
+      <recent name="$PROJECT_DIR$/lib/tabs/home/webview" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -78,5 +106,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
