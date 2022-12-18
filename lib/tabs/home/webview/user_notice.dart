@@ -8,12 +8,12 @@ import 'package:webview_flutter/webview_flutter.dart';
 import '../../../constants/colors.dart';
 import '../../../constants/global_constants.dart';
 
-class UserNotice extends StatefulWidget {
+class UserNoticePage extends StatefulWidget {
   final String url;
   final String title;
   final Function agreeUserNoticeCallBack;
 
-  const UserNotice(
+  const UserNoticePage(
       {required this.url,
         required this.title,
         required this.agreeUserNoticeCallBack,
@@ -21,21 +21,19 @@ class UserNotice extends StatefulWidget {
       : super(key: key);
 
   @override
-  State<UserNotice> createState() => _UserNoticeState();
+  State<UserNoticePage> createState() => _UserNoticeState();
 }
 
-class _UserNoticeState extends State<UserNotice> {
+class _UserNoticeState extends State<UserNoticePage> {
   ///单订阅流
   final StreamController<double> _streamController = StreamController();
 
   ///计时器
   late Timer _timer;
 
-  ///倒计时3秒
-  double totalTimeNumber = 3000;
 
   ///当前的时间
-  double currentTimeNumber = 3000;
+  double currentTimeNumber = 6000;
 
   @override
   void initState() {
@@ -82,6 +80,7 @@ class _UserNoticeState extends State<UserNotice> {
         leading: Text(''),
         title: TitleBar(
           widget.title,
+          titleTextColor: Colors.white,
           leftWidget: Container(
             width: 44,
             margin: EdgeInsets.only(right: 46),
@@ -93,10 +92,7 @@ class _UserNoticeState extends State<UserNotice> {
                 height: GlobalConst.navHeight,
               ),
               onPressed: () {
-                // BoostContainerSettings settings =
-                //     BoostContainer.of(context).settings;
-                // FlutterBoost.singleton.close(settings.uniqueId,
-                //     result: <String, dynamic>{"result": "data from myorder"});
+                Navigator.of(context).pop();
               },
             ),
           ),
@@ -136,48 +132,45 @@ class _UserNoticeState extends State<UserNotice> {
         return GestureDetector(
           onTap: enableClick
               ? () {
-            // if (Platform.isAndroid) {
-            //   bus.emit(EventName.orderReadUserNotice, 1);
-            // }
             Navigator.of(context).pop();
-            if (widget.agreeUserNoticeCallBack != null) {
-              widget.agreeUserNoticeCallBack();
-            }
+            widget.agreeUserNoticeCallBack();
           }
               : null,
-          child: Container(
-            width: MediaQuery.of(context).size.width,
-            height: 50,
-            color:
-            enableClick ? const Color(0xff00C7BF) : const Color(0xffF3F3F3),
-            child: IndexedStack(
-              alignment: Alignment.center,
-              index: enableClick ? 0 : 1,
-              children: [
-                TextButton(
-                  onPressed: () {  },
-                  child: const Text(
-                    '我已知晓',
-                    style: TextStyle(fontSize: 18, color: Colors.white),
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {  },
-                  child: RichText(
-                    text: TextSpan(
-                      text: '我已知晓 ',
-                      style: const TextStyle(
-                          fontSize: 18, color: Color(0xff333333)),
-                      children: <TextSpan>[
-                        TextSpan(
-                          text: '${(snapshot.data! / 1000).toStringAsFixed(0)}s',
-                          style: TextStyle(color: Color(0xff00C7BF)),
-                        ),
-                      ],
+          child: SafeArea(
+            child: Container(
+              width: MediaQuery.of(context).size.width,
+              height: 50,
+              color:
+              enableClick ? const Color(0xff00C7BF) : const Color(0xffF3F3F3),
+              child: IndexedStack(
+                alignment: Alignment.center,
+                index: enableClick ? 0 : 1,
+                children: [
+                  TextButton(
+                    onPressed: () {  },
+                    child: const Text(
+                      '我已知晓',
+                      style: TextStyle(fontSize: 18, color: Colors.white),
                     ),
                   ),
-                ),
-              ],
+                  TextButton(
+                    onPressed: () {  },
+                    child: RichText(
+                      text: TextSpan(
+                        text: '我已知晓 ',
+                        style: const TextStyle(
+                            fontSize: 18, color: Color(0xff333333)),
+                        children: <TextSpan>[
+                          TextSpan(
+                            text: '${(snapshot.data! / 1000).toStringAsFixed(0)}s',
+                            style: TextStyle(color: Color(0xff00C7BF)),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         );

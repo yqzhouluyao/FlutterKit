@@ -4,34 +4,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d233d693-f007-4e5d-82a4-f3e3fef77e0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/alertview_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/check_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/community_qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon_nav_back_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon_next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/right_angle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constants/colors.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constants/global_constants.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constants/icon_font.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/eventbus/event_bus.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/webview/title_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" afterDir="false" />
+    <list default="true" id="d1b80ace-aff4-4db0-9e61-def382eb877d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/constants/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/network/api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/network/code.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/network/config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/network/result_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_api_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutterkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutterkit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/global_constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/global_constants.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tabs/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ILGaquKxj9IaPtmzX4H28Ajr75" />
+  <component name="ProjectId" id="2J4X0HGPDBDsRXg2pWkn0YuLpUh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -61,7 +59,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -69,14 +66,13 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/lib/constants" />
-      <recent name="$PROJECT_DIR$/lib/tabs/home/dialog" />
-      <recent name="$PROJECT_DIR$/lib/tabs/home/webview" />
+      <recent name="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc" />
+      <recent name="$PROJECT_DIR$/lib/network" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,11 +84,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d233d693-f007-4e5d-82a4-f3e3fef77e0a" name="Changes" comment="" />
-      <created>1669953519260</created>
+      <changelist id="d1b80ace-aff4-4db0-9e61-def382eb877d" name="Changes" comment="" />
+      <created>1671338104912</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669953519260</updated>
+      <updated>1671338104912</updated>
     </task>
     <servers />
   </component>
@@ -107,16 +103,28 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart</url>
           <line>14</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_api_provider.dart</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

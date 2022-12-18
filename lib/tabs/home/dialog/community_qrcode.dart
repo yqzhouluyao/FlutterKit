@@ -149,8 +149,8 @@ class CommunityQRCode extends StatelessWidget {
                       child: const Image(
                         image: AssetImage("images/alertview_close.png"),
                         fit: BoxFit.fill,
-                        // height: 30,
-                        // width: 30,
+                        height: 30,
+                        width: 30,
                       )),
                 ),
               ],
