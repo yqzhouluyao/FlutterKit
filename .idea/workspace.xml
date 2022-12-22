@@ -5,32 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b80ace-aff4-4db0-9e61-def382eb877d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/constants/app.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/network/api.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/network/code.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/network/config.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/network/result_data.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_api_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutterkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutterkit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/global_constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/global_constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/network/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/network/config.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tabs/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/dialog/community_qrcode.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +29,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/fvm/versions/stable/packages/flutter/lib/src/widgets/framework.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/bloc_provider-1.0.0/lib/src/bloc_provider.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/fvm/versions/stable/packages/flutter/lib/src/widgets/async.dart" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +54,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -107,24 +95,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart</url>
-          <line>14</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_api_provider.dart</url>
-          <line>17</line>
-          <option name="timeStamp" value="8" />
+          <line>32</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

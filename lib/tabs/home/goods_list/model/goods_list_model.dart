@@ -5,10 +5,10 @@ part 'goods_list_model.g.dart';
 @JsonSerializable()
 class GoodsListModel extends Object {
   @JsonKey(name: 'code')
-  int code;
+  int? code;
 
   @JsonKey(name: 'data')
-  Data data;
+  Data? data;
 
   GoodsListModel(
     this.code,
@@ -24,10 +24,10 @@ class GoodsListModel extends Object {
 @JsonSerializable()
 class Data extends Object {
   @JsonKey(name: 'total')
-  double total;
+  double? total;
 
   @JsonKey(name: 'list')
-  List<GoodsList> list;
+  List<GoodsList>? list;
 
   Data(
     this.total,
@@ -43,28 +43,28 @@ class Data extends Object {
 @JsonSerializable()
 class GoodsList extends Object {
   @JsonKey(name: 'cover')
-  String cover;
+  String? cover;
 
   @JsonKey(name: 'title')
-  String title;
+  String? title;
 
   @JsonKey(name: 'prices')
-  GoodsList prices;
+  List<GoodsList>? prices;
 
   @JsonKey(name: 'goods_id')
-  double goodsId;
+  double? goodsId;
 
   @JsonKey(name: 'goods_type')
-  double goodsType;
+  double? goodsType;
 
   @JsonKey(name: 'quota')
-  double quota;
+  double? quota;
 
   @JsonKey(name: 'ordered')
-  double ordered;
+  double? ordered;
 
   @JsonKey(name: 'limit')
-  double limit;
+  double? limit;
 
   GoodsList(
     this.cover,
@@ -86,13 +86,13 @@ class GoodsList extends Object {
 @JsonSerializable()
 class Prices extends Object {
   @JsonKey(name: 'currency_type')
-  String currencyType;
+  String? currencyType;
 
   @JsonKey(name: 'price')
-  int price;
+  int? price;
 
   @JsonKey(name: 'currency_type_code')
-  String currencyTypeCode;
+  String? currencyTypeCode;
 
   Prices(
     this.currencyType,

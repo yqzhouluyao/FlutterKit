@@ -23,9 +23,9 @@ class Config {
   static final String baseUrlImage = "https://image.eduzhixin.com/";
   static final String baseUrlStatic = "https://static.eduzhixin.com/";
   // b1环境baseUrlAlphaShare4
-  static final String baseUrlAlpha = "https://b1-api.zhixinoj.com/";
+  static final String baseUrlAlpha = "https://alpha-lapi.upho2015.com/";
   static final String baseUrlImagelAlpha = "https://b1-chiral.zhixinoj.com/";
-  static final String baseLdlUrlAlpha = "https://b1-lapi.zhixinoj.com/";
+  static final String baseLdlUrlAlpha = "https://alpha-lapi.upho2015.com/";
   static final String basePassportUrlAlpha = "https://b1-passport.zhixinoj.com/";
   static final String baseCrmUrlAlpha = "https://b1-lapi.zhixinoj.com/";
   static final String baseImUrlAlpha = "https://b1-liveapi.zhixinoj.com/";

@@ -16,12 +16,12 @@ class GoodsListBloc implements Bloc {
   int _page = 1;
   bool _isLoadMore = false; //是否加载更多 false:加载更多
   bool _isLoad = false; //判断是第一次加载没有数据 还是上拉加载没有数据  true为上拉加载没有数据
-  late List<GoodsList> _goodsList;
+  List<GoodsList> _goodsList = [];
   
   initData(int page) {
     Future<GoodsListModel?> future = GoodsApiProvider().getGoodsList(page, 10);
     future.then((value) {
-      if (value?.data!.list == null || (value!.data!.list!.length > 0)) {
+      if (value?.data!.list == null) {
         if (_isLoad) {
           //上拉加载没有数据
           _isLoadMore = true;

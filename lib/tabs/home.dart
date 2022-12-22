@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
    requstGoodsList(context) {
      Navigator.of(context)
          .push(MaterialPageRoute(builder: (_) {
-       return  GoodsListPage();
+       return   GoodsListPage();
      }));
   }
 }
