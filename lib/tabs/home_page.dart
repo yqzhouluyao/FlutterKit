@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterkit/tabs/home/goods_list/page/goods_list_page.dart';
 
+import 'home/course_detail/page/course_detail_page.dart';
 import 'home/dialog/community_qrcode.dart';
 import 'home/webview/user_notice.dart';
 
@@ -10,7 +11,8 @@ class HomePage extends StatelessWidget {
    List<String> functionList = ['打开一个webview(WebView、Timer、StreamController)',
      '弹出一个定制的dialog(showDialog)',
      '使用event_bus发送、监听通知',
-     '网络请求、模型赋值'];
+     '网络请求、模型赋值',
+     '课程详情'];
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +31,9 @@ class HomePage extends StatelessWidget {
               } else if (functionList[index] == '使用event_bus发送、监听通知') {
 
               } else if (functionList[index] == '网络请求、模型赋值') {
-                requstGoodsList(context);
+                requestGoodsList(context);
+              } else if (functionList[index] == '课程详情') {
+                requestCourseDetail(context);
               }
 
              },
@@ -66,10 +70,19 @@ class HomePage extends StatelessWidget {
    }
 
    //网络请求、模型赋值
-   requstGoodsList(context) {
+   requestGoodsList(context) {
      Navigator.of(context)
          .push(MaterialPageRoute(builder: (_) {
-       return   GoodsListPage();
+       return   const GoodsListPage();
      }));
   }
+
+  //课程详情
+   requestCourseDetail(context) {
+     Navigator.of(context)
+         .push(MaterialPageRoute(builder: (_) {
+       return   const CourseDetailPage();
+     }));
+   }
+
 }

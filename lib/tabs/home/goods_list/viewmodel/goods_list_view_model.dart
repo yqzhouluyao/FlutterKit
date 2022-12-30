@@ -1,12 +1,12 @@
 
-import 'package:bloc_provider/bloc_provider.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutterkit/tabs/home/goods_list/model/goods_list_model.dart';
 import 'package:rxdart/rxdart.dart';
 
-import 'goods_api_provider.dart';
+import 'goods_list_provider.dart';
 
-class GoodsListBloc implements Bloc {
+class GoodsListViewModel extends ChangeNotifier {
 
   //商品list
   final _goodsListFetcher = PublishSubject<List<GoodsList>>();
@@ -19,7 +19,7 @@ class GoodsListBloc implements Bloc {
   List<GoodsList> _goodsList = [];
   
   initData(int page) {
-    Future<GoodsListModel?> future = GoodsApiProvider().getGoodsList(page, 10);
+    Future<GoodsListModel?> future = GoodsApiProvider().getGoodsList(page, 20);
     future.then((value) {
       if (value?.data!.list == null) {
         if (_isLoad) {

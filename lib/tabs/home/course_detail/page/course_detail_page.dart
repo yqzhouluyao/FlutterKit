@@ -1,19 +1,22 @@
+//简单的应用状态管理 https://flutter.cn/docs/development/data-and-backend/state-mgmt/simple
+
 import 'package:flutter/material.dart';
+import 'package:flutterkit/tabs/home/course_detail/viewmodel/course_detail_view_model.dart';
 import 'package:provider/provider.dart';
+
+import '../../../../common/title_bar.dart';
 import '../../../../constants/colors.dart';
 import '../../../../constants/global_constants.dart';
-import '../../../../common/title_bar.dart';
-import '../viewmodel/goods_list_view_model.dart';
-import 'goods_list_widget.dart';
+import 'course_detail.dart';
 
-class GoodsListPage extends StatefulWidget {
-  const GoodsListPage({Key? key}) : super(key: key);
+class CourseDetailPage extends StatefulWidget {
+  const CourseDetailPage({Key? key}) : super(key: key);
 
   @override
-  State<GoodsListPage> createState() => _GoodsListPageState();
+  State<CourseDetailPage> createState() => _GoodsListPageState();
 }
 
-class _GoodsListPageState extends State<GoodsListPage> {
+class _GoodsListPageState extends State<CourseDetailPage> {
   @override
   void initState() {
     super.initState();
@@ -21,7 +24,7 @@ class _GoodsListPageState extends State<GoodsListPage> {
 
   @override
   Widget build(BuildContext context) {
-    const String title = "商品列表";
+    const String title = "课程详情";
     return Scaffold(
       appBar: AppBar(
           titleSpacing: 0,
@@ -45,14 +48,14 @@ class _GoodsListPageState extends State<GoodsListPage> {
               ),
             ),
             rightWidget:
-                Container(width: 44, margin: const EdgeInsets.only(right: 46)),
+            Container(width: 44, margin: const EdgeInsets.only(right: 46)),
           ),
           backgroundColor: Colors.white,
           centerTitle: true,
           elevation: 0),
       body: ChangeNotifierProvider(
-          create: (context) => GoodsListViewModel(),
-          child: const GoodsListWidget()),
+          create: (context) => CourseDetailViewModel(),
+          child: const CourseDetail()),
     );
   }
 }

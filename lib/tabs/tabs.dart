@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterkit/tabs/home.dart';
+import 'package:flutterkit/tabs/home_page.dart';
 import 'package:flutterkit/tabs/investment_principles.dart';
 import 'package:flutterkit/tabs/setttings.dart';
 

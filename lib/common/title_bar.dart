@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import '../../../constants/colors.dart';
-import '../../../constants/global_constants.dart';
-import '../../../constants/icon_font.dart';
+import '../constants/colors.dart';
+import '../constants/global_constants.dart';
+import '../constants/icon_font.dart';
 
 class TitleBar extends StatelessWidget {
   final String title;

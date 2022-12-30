@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b80ace-aff4-4db0-9e61-def382eb877d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/course_detail/model/course_detail_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/course_detail/model/course_detail_model.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/course_detail/page/course_detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/course_detail/page/course_detail_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home/course_detail/viewmodel/course_detail_view_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/network/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/network/config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/model/goods_list_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_api_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/viewmodel/goods_list_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/viewmodel/goods_list_view_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/webview/title_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/title_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home/webview/user_notice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/investment_principles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/investment_principles.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/tabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/tabs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +45,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/fvm/versions/stable/packages/flutter/lib/src/widgets/framework.dart" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/bloc_provider-1.0.0/lib/src/bloc_provider.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/fvm/versions/stable/packages/flutter/lib/src/widgets/async.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/bloc_provider-1.0.0/lib/src/bloc_provider.dart" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -59,6 +73,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/common" />
+      <recent name="$PROJECT_DIR$/lib/tabs/home/course_detail/model" />
+      <recent name="$PROJECT_DIR$/lib/tabs/home/course_detail/page" />
       <recent name="$PROJECT_DIR$/lib/tabs/home/goods_list/bloc" />
       <recent name="$PROJECT_DIR$/lib/network" />
     </key>
@@ -91,21 +108,14 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/page/goods_list_widget.dart</url>
-          <line>36</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/bloc/goods_list_bloc.dart</url>
+          <url>file://$PROJECT_DIR$/lib/tabs/home/goods_list/viewmodel/goods_list_view_model.dart</url>
           <line>32</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
